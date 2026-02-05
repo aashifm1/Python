@@ -29,7 +29,7 @@ while True:
 
 # ------- CALCULATE --------
 
-def calculate():
+def calculate(num1, num2, operator):
     if operator == "+":
         print(f"\nThe addition of {num1} and {num2} is ", num1 + num2)
     elif operator == "-":
@@ -48,7 +48,8 @@ def calculate():
 # ------ MAIN -------
 
 def main():
-    calculate()
+    calculate(num1, num2, operator)
 
 if __name__ == "__main__":
+
     main()
